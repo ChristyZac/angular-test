@@ -1,0 +1,267 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}   
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header h1 {
+	padding-top: 15px;
+	padding-left: 150px;
+}
+header h1 img {
+	width: 190px;
+    margin-top: 0px;
+    margin-right: -110px;
+    margin-left: 25px;
+}
+header h1 img logo {
+    
+}
+header nav.middle {
+
+}
+header nav.middle ul {
+	display: flex;
+	justify-content: space-between;
+    padding-right: 200px;
+    padding-top: 05px;
+}
+header nav.middle ul li {
+	padding-top: 20px;
+	padding: 20px;
+}
+header nav.middle ul li a {
+	font-size: 17px;
+    color: #42526e;
+}
+header nav.right {
+
+}
+header nav.right ul {
+	display: flex;
+	justify-content: space-between;
+}
+header nav.right ul li {
+	padding-top: 20px;
+	padding: 25px;
+	margin-right: 60px;
+}
+
+header nav.right ul li.first {
+    background-color: chocolate;
+}
+header nav.right ul li a {
+    
+	font-size: 15px;
+	padding-left: -70px;
+    padding-right: 90px;
+    color: #0052cc;
+}
+ 
+header nav.right ul li.first {
+    position: relative;
+    right: 50px;
+}
+header nav.right ul li a.button{
+	background: #0052cc;
+	padding: 10px 25px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#spotlight section.content {
+	display: flex;
+	justify-content: space-between;
+    
+}
+
+#spotlight section.content div.some {
+   width: 100%;
+   height: 500px;
+   background: url(assets/images/main.jpg);
+   background-repeat: no-repeat;
+   background-size: 1550px;
+}
+
+#spotlight section.content div.main {
+
+    background-color: #0052cc;
+    opacity: 0.7;
+    width: 600px;
+    height: 270px;
+    margin-left: 480px;
+    margin-top: 100px;
+    padding-left: 100px;
+    
+}
+#spotlight section.content div.main h1 {
+	font-weight: bold;
+	font-size: 45px;
+    opacity: 2;
+	width: 1500px;
+    padding-left: 27px;
+	padding-top: 80px;
+    color: #fff;
+}
+#spotlight section.content div.main p {
+	width: 1000px;
+	padding-left: 10px;
+	padding-top: 30px;
+	font-weight: bold;
+    opacity: 2;
+    color: #fff;
+}
+
+#spotlight section.content div.main span{
+    width: 1000px;
+	padding-left: 150px;
+	padding-top: 100px;
+	font-weight: bold;
+    opacity: 5;
+    color: #fff;
+    cursor: pointer;
+}
+
+#spotlight section.content div.main-two {
+
+    background-color: rgb(238, 173, 54);
+    width: 1470px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+#spotlight section.content div.main-two div.content {
+    display: flex;
+}
+
+#spotlight section.content div.main-two div.content div.logo {
+    padding-top: 30px;
+}
+
+#spotlight section.content div.main-two div.content div.center {
+    width: 700px;
+
+
+}
+
+#spotlight section.content div.main-two div.content div.center h6 {
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+#spotlight section.content div.main-two div.content div.center p {
+    font-size: 17px;
+    padding-left: 50px;
+}
+
+#spotlight section.content div.main-two div.content div.button  {
+    display: flex;
+    justify-content: space-between;
+}
+
+#spotlight section.content div.main-two div.content div.button a {
+    margin-left: 50px;
+   height: 30px;
+   width: 120px;
+   margin-top: 35px;
+   padding-top: 5px;
+   padding-left: 5px;
+   background-color: #0052cc;
+   color: #fff;
+   border-radius: 5px;
+}
+ 
+#spotlight section.content div.main-two div.content div.button img {
+ width: 169px;
+ margin-left: 80px;
+}
+
+
+
